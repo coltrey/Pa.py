@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Pa.py is the Podcast Aggregator in python...
 # it basically just auto-downloads all URLs in an <enclosure> element
-VERSION = "Pip v0.2-beta"
+VERSION = "Pa.py v0.2-beta"
 
 import urllib
 import feedparser
