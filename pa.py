@@ -36,7 +36,7 @@ class fileDescription(object):
         self.filename = URL.split('/')[-1].split('?')[0]
         self.outputPath = options.baseDir + folderMark + name + os.path.sep
         self.link = linkBase + folderMark + name + os.path.sep + self.filename
-        self.logfile = options.baseDir + 'pip.log'
+        self.logfile = options.baseDir + 'papy.log'
         self.options = options
         self.VERBOSE = VERBOSE
 
